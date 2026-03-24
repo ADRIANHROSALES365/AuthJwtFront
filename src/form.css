@@ -1,6 +1,7 @@
 #login{
     display: flex;
     margin:0 auto;
+    flex-direction: column;
 }
 ul{
     text-decoration: none;
@@ -12,3 +13,4 @@ li{
 label{
     margin-right: 25px;
 }
+
