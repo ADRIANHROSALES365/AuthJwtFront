@@ -2,6 +2,12 @@
     display: flex;
     margin:0 auto;
     flex-direction: column;
+    border: 3px solid grey;
+    padding: 50px 10px 50px 10px;
+    border-radius: 20px;
+    width: 550px;
+    height: 350px;
+    justify-content: center;
 }
 ul{
     text-decoration: none;
@@ -13,4 +19,23 @@ li{
 label{
     margin-right: 25px;
 }
+
+#label_username{
+    margin-right: 20px;
+}
+
+#send{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+
+li input {
+    height: 23px;
+    font-weight: bold;
+    border: solid whitesmoke 1px;
+}
+
+
 

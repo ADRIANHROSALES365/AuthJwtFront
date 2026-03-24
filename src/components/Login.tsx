@@ -18,15 +18,16 @@ return(
         <form action="" method="post">
         <ul>
             <li>
-                <label htmlFor="user_name">UserName:</label>
+                <label id='label_username' htmlFor="user_name">UserName:</label>
                 <input type="text" name="username" id="user_name" placeholder="Username" value={formData.username} onChange={HandleInputChange}/>
+                
             </li>
             <li>
                 <label htmlFor="user_name">Password:</label>
                 <input type="text" name="password" id="pass" placeholder="Password" value={formData.password} onChange={HandleInputChange}/>
             </li>
         </ul>
-        <button type="submit">Log In</button>
+        <button id='send' type="submit">Log In</button>
         </form>
 
     </div>

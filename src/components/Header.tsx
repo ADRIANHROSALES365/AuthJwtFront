@@ -6,7 +6,7 @@ interface HeaderProps {
 
 const Header = ({ title, subtitle }: HeaderProps) => {
   return (
-    <header style={{ borderBottom: '100px solid #ccc', padding: '1rem' }}>
+    <header style={{ borderBottom: '1px solid #ccc', padding: '1rem', marginBottom: '20px' }}>
       <h1>{title}</h1>
       {subtitle && <p>{subtitle}</p>} 
     </header>

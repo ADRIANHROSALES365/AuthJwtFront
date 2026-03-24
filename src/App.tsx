@@ -1,4 +1,3 @@
-import './App.css'
 import './components/Header'
 import Login from './components/Login'
 
