@@ -1,12 +1,14 @@
 import './components/Header'
-import Login from './components/Login'
+import Index from './components'
 
 function App() {
+
+
   
 
   return (
     <>
-    <Login/>
+    <Index/>
     </>
   )
 }

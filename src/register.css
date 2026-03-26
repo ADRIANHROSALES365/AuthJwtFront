@@ -1,0 +1,28 @@
+#register_div{
+    display: flex;
+    flex-direction: column;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+li input{
+   border: 2px solid white; 
+}
+
+#input_username
+{
+    margin-right: 10px;
+}
+#input_password
+{
+    margin-right: 1px;
+}
+
+button{
+    margin-top: 20px;
+    height: 30px;
+    font-size: 20px;
+}
+
